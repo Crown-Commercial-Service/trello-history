@@ -1,0 +1,18 @@
+{
+  "name": "DM Trello History",
+  "details": "Allows the retrieval of a more complete card history via the Trello API.",
+  "icon": {
+    "url": "./res/history-inspector.png"
+  },
+  "author": "GDS - Digital Marketplace",
+  "capabilities": [
+    "callback",
+    "card-buttons",
+    "show-authorization"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
