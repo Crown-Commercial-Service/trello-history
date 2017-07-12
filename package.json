@@ -1,0 +1,24 @@
+{
+	"name": "dm-trello-history",
+	"version": "1.0.0",
+	"description": "A Power-Up to expose a card's full history as retained by Trello",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"compression": "1.6.2",
+		"cors": "2.8.1",
+		"express": "4.15.2",
+		"swig": "1.4.2"
+	},
+	"engines": {
+		"node": "6.10.2"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
