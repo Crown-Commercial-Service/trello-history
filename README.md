@@ -29,3 +29,7 @@ If you are in the Digital Marketplace and want to update the existing deployment
 Guidance](https://docs.cloud.service.gov.uk/#setting-up-the-command-line) for how to login, then run `cf push` from
 the root of this directory. The Trello Developer key is stored in the dm-credentials repository under 
 `vars/trello.yaml`; if it ever changes, use `cf set-env` to update it.
+
+## Testing changes
+Deploy to a personal heroku account or PaaS sandbox and integrate with a personal board. Yep... I've come up with
+nothing better in the few seconds I spent thinking about it.
