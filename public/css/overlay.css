@@ -12,3 +12,24 @@ body {
   max-width: 600px;
   max-height: 90%;
 }
+
+.history-config {
+}
+
+.hide {
+  display: none;
+}
+
+.history-config {
+  display: table;
+}
+
+.history-config > p.settings {
+  display: inline;
+}
+
+.history-config > div.settings {
+  display: table-cell;
+  text-align: center;
+  width: 50%;
+}

@@ -8,6 +8,8 @@ function ActivityBuilder() {
 */
 ActivityBuilder.prototype._buildItemFromElements = function _buildItemFromElements(item, modType, divDesc) {
   var parent = document.createElement('DIV');
+  parent.dataset.datetime = item.date;
+  parent.dataset.type = item.type;
 
   parent.classList.add('phenom');
   parent.classList.add('mod-' + modType + '-type');
